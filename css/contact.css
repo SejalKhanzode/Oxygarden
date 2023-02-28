@@ -1,0 +1,126 @@
+body{}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+    /* text-transform:uppercase; */
+}
+.container {
+    background: url(/images/contact.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    /* background-attachment: fixed; */
+    /* opacity: .8;
+    z-index: -1;
+    position: relative; */
+}
+.container .navigation nav ul{
+    display: flex;
+    position: sticky;
+    align-items: center; 
+    background-repeat: no-repeat;
+    color: white;
+    float: right;
+    padding: 20px 70px ;
+}
+.container .navigation nav ul li{
+    position: relative;
+    display: inline;
+    font-size: 1.2rem;
+    padding: 5px;
+    text-transform:uppercase;
+}
+.container .navigation nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+     padding: 3px 20px;
+     color: rgb(8, 82, 8);
+     border: 1px solid black;
+    padding: 4px 30px;
+     /* font-family: 'Anton', sans-serif;
+     font-family: 'Merienda', cursive;
+     font-family: 'Monoton', cursive;
+     font-family: 'Sigmar One', cursive;*/
+} 
+.container .navigation nav ul li a:hover{
+    background-color: rgb(5, 80, 5);
+    color: white;
+}
+.container .navigation nav::before{
+    content: "";
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    z-index:-1;
+    opacity: 0.4;
+}
+.container .front{
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    /* text-align: center;  */
+}
+.container .front h1{
+    font-size: 3.5rem;
+    color: black;
+    padding: 75px 0 0 0px;
+    text-transform:uppercase;
+    text-align: center; 
+}
+.container .front .title h4{
+    padding: 0px 150px;
+    font-size: 1.2rem;
+    color: rgb(228, 19, 88);
+}
+.container .front .title p{
+    padding: 0px 120px 5px 180px;
+    font-size: 1.5rem;
+    color: rgb(44, 29, 1);
+}
+
+.container .front .button {
+    position: relative;
+  width: 100%;
+  height: 250px;
+  margin-top: 200px;
+  
+}
+.container .front .button .contact1 a, .container .front .button .contact2 a, .container .front .button .contact3 a{
+    text-decoration: none;
+    color: rgb(24, 7, 121);
+    
+}
+.container .front .button .contact1{
+    position: absolute;
+  top: 10px;
+  left: 0;
+  width: 200px;
+  height: 50px;
+  padding-left: 245px;
+  font-size: 2rem;
+  text-decoration: none;
+}
+.container .front .button .contact2{
+    position: absolute;
+  top: 10px;
+  left: 0;
+  width: 200px;
+  height: 50px;
+  padding-left: 570px;
+  font-size: 2rem;
+}
+.container .front .button .contact3{
+    position: absolute;
+  top: 10px;
+  left: 0;
+  width: 200px;
+  height: 50px;
+  padding: 20px 0 0 930px;
+  font-size: 15px;
+}
+.contact .form .incontact{
+    
+}

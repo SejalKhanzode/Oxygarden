@@ -1,0 +1,94 @@
+body{
+    background-image: linear-gradient(rgba(0, 0, 0,0.7 ),rgba(0, 0, 0, 0.9)) ,url(/images/plant.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    background-attachment: fixed;
+    color: white;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+    
+}
+.container {
+    /* background-image: linear-gradient(rgba(0, 0, 0,0.7 ),rgba(0, 0, 0, 0.9)) ,url(/images/plant.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+    background-attachment: fixed; */
+}
+.container .navigation nav ul{
+    display: flex;
+    position: sticky;
+    align-items: center; 
+    background-repeat: no-repeat;
+    float: right;
+    padding: 20px 70px ;
+}
+.container .navigation nav ul li{
+    position: relative;
+    display: inline;
+    font-size: 1.2rem;
+    padding: 5px;
+    text-transform:uppercase;
+}
+.container .navigation nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+     color: white;
+     border: 1px solid white;
+    padding: 4px 30px;
+}
+.container .navigation nav ul li a:hover{
+    background-color: white;
+    color: rgb(5, 80, 5);
+}
+
+.container .navigation nav::before{
+    content: "";
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    z-index:-1;
+    opacity: 0.4;
+}
+
+.plants{
+    margin: 0;
+    padding: 0;
+}
+.heading #head{
+    padding-top: 100px;
+    text-align: center;
+    font-size: 5rem;
+    
+}
+
+.heading .plant {
+    padding: 40px;
+}
+.heading .plant .info,.heading .plant .benefits,.heading .plant .care,.heading .plant .shop{
+   padding: 20px ;
+}
+.heading .plant .info img{
+    padding: 20px 0;
+    width: 400px;
+    height: 250px;
+}
+.heading .plant .shop a{
+    text-decoration: none;
+    color: white;
+    border: 1px solid white;
+    padding: 7px 7px;
+    font-size: 1.5rem; 
+}
+.heading .plant .shop a:hover{
+    background-color: grey;
+    color: black;
+}

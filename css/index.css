@@ -1,0 +1,95 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Amatic+SC&family=Anton&family=Monoton&family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Merienda&family=Monoton&family=Sigmar+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Dosis:wght@200&family=Merienda&family=Monoton&family=Sigmar+One&display=swap'); */
+
+
+body{}
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto',sans-serif;
+    text-transform:uppercase;
+}
+.container {
+    background: url(/images/index.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 650px;
+}
+.container .navigation nav ul{
+    display: flex;
+    position: sticky;
+    align-items: center; 
+    background-repeat: no-repeat;
+    color: white;
+    float: right;
+    padding: 20px 70px ;
+}
+.container .navigation nav ul li{
+    position: relative;
+    display: inline;
+    font-size: 1.2rem;
+    padding: 5px;
+}
+.container .navigation nav ul li a{
+    text-decoration: none;
+    padding: 10px;
+    display: block;
+     padding: 3px 20px;
+     color: white;
+     border: 1px solid white;
+    padding: 4px 30px;
+     /* font-family: 'Anton', sans-serif;
+     font-family: 'Merienda', cursive;
+     font-family: 'Monoton', cursive;
+     font-family: 'Sigmar One', cursive;*/
+} 
+.container .navigation nav ul li a:hover{
+    background-color: white;
+    color: rgb(14, 75, 14);
+}
+.container .navigation nav::before{
+    content: "";
+    position: absolute;
+    height: 10%;
+    width: 100%;
+    z-index:-1;
+    opacity: 0.4;
+}
+.container .front{
+    background-repeat: no-repeat;
+    /* font-family: 'Anton', sans-serif;
+font-family: 'Dosis', sans-serif;
+font-family: 'Merienda', cursive;
+font-family: 'Monoton', cursive;
+font-family: 'Sigmar One', cursive; */
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+}
+.container .front .title  h1{
+    font-size: 3rem;
+    color: white;
+    padding: 180px 0 20px;
+}
+.container .front .title  p{
+    font-size: 20px;
+    color: white;
+    padding-top: 10px;
+}
+/* .container .front .button {
+    padding: 40px;
+    font-size: 1.2rem;
+text-decoration: none;
+}
+.container .front .button li a{
+    text-decoration: none ;
+    color: white;
+    border: 1px solid white;
+    padding: 4px 30px;
+}
+.container .front .button li a:hover{
+    background-color: white;
+    color: rgb(14, 75, 14);
+} */
